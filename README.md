@@ -4,13 +4,14 @@ Created and Developed by Kaichen Xiao (MaGicKaiChen)
 
 ###### Introduction
 This is a `tcsh` shell simulator implemented by C++ and runs on Linux system, the mock shell takes *following built-in commands*:
-  `quit`: terminate the shell process
-  `date`: display current date and time
-  `curr`: display absolute pathname of current directory
-  `env`: display all environment variables
-  `cd Dir`: move from the current directory to `Dir`
-  `hlist`: display recent input lines
-  `dlist`: display recent directories
+
+  `quit`: terminate the shell process.
+  `date`: display current date and time.
+  `curr`: display absolute pathname of current directory.
+  `env`: display all environment variables.
+  `cd Dir`: move from the current directory to `Dir`.
+  `hlist`: display recent input lines.
+  `dlist`: display recent directories.
 
 The shell also takes other external linux commands such as `ls`, `mkdir`, `rm`, `mv` and other commands.
 
