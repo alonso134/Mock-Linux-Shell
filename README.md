@@ -1,9 +1,9 @@
 # Mock-Linux-Shell
 **Linux shell simulator (**`tcsh`**)**  
-Created and Developed by Kaichen Xiao (MaGicKaiChen)
+Created and Developed by **Kaichen Xiao** (MaGicKaiChen)
 
 #### Introduction
-This is a `tcsh` shell simulator implemented by C++ and runs on Linux system, the mock shell takes **following built-in commands**:
+This is a `tcsh` shell simulator implemented by `C++` and runs on Linux system, the mock shell takes **following built-in commands**:
 
   * `quit`: terminate the shell process.
   * `date`: display current date and time.
@@ -18,7 +18,7 @@ index `n` in the directory list. *(i.e. command* `cd #4` *will move to 4th direc
       processes the command(s) within the line. *(i.e. command* `!7` *will execute the 7th command in history.)*
   * `dlist`: display recent directories.
 
-The shell also takes other external linux commands such as `ls`, `mkdir`, `rm`, `mv` and other commands.
+The shell also takes external linux commands such as `ls`, `mkdir`, `rm`, `mv` and other commands.
 
 #### How to use it
 * First `fork` and `clone` this project to your working directory, then in your linux terminal, switch to the directory where you store the projects.
