@@ -83,12 +83,13 @@ int main() {
             else if (cmd[0] == "cd") {
                 if (cmd.size() == 2) {
                     int dc;
-                    if (cmd[1] != "~") {
+                    if (cmd[1] != "~" && cmd[1][0] != '~') {
                         const char *path = cmd[1].c_str();
                         dc = chdir(path);
                     }
                     else if (cmd[1][0] == '~' && cmd[1].size() != 1){
-                        string homedir = "/user/" + cmd[1].substr(1, cmd[1].size() - 1);
+                        string homedir = "/user/" + cmd[1].substr(1, cmd[1].size());
+                        //cout << homedir<<endl;
                         dc = chdir(homedir.c_str());
                     }
                     else {
